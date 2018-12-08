@@ -1,22 +1,29 @@
 <template>
   <div id="app">
-    <SharedNavigation />
     <router-view/>
   </div>
 </template>
+
 <script>
-import SharedNavigation from "@/components/shared/SharedNavigation.vue";
 export default {
-  components: {
-    SharedNavigation
+  created() {
+    fetch(
+      "https://raw.githubusercontent.com/mscraftsman/devcon2019/master/web/app/package.json"
+    )
+      .then(response => response.json())
+      .then(data => console.log(data));
   }
 };
 </script>
 
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  background-color: $color-main;
 }
 </style>

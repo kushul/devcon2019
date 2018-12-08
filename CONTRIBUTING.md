@@ -7,7 +7,7 @@ The following is a set of guidelines for contributing to DevCon2019. These are m
 ## Technology Stack
 - Golang 1.11
 - VueJS
-- Nelify CI
+- Netlify CI
 - Github as a CMS
 
 ## Theme : Ice & Fire

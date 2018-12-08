@@ -1,0 +1,95 @@
+.home-component {
+  color: white;
+}
+
+.container {
+  width: 1120px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: $desktop) {
+  .container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $tablet-portrait) {
+  .container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+//  Buttons
+
+.button {
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+  }
+}
+
+.button-center {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.button-orange {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-red-light;
+  border-radius: 10px;
+
+  a {
+    display: block;
+    padding: 15px 30px;
+    color: $color-red-light;
+  }
+}
+
+.button-blue {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-blue-light;
+  border-radius: 10px;
+
+  a {
+    display: block;
+    padding: 20px 35px;
+    color: $color-blue-light;
+  }
+}
+
+// View More
+
+.view-more {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
